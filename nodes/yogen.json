@@ -222,13 +222,13 @@
     "filesystem": {
       "/dev/mapper/VolGroup-lv_root": {
         "kb_size": "17938864",
-        "kb_used": "1579992",
-        "kb_available": "15440960",
+        "kb_used": "1580876",
+        "kb_available": "15440076",
         "percent_used": "10%",
         "mount": "/",
         "total_inodes": "1148304",
-        "inodes_used": "69775",
-        "inodes_available": "1078529",
+        "inodes_used": "69900",
+        "inodes_available": "1078404",
         "inodes_percent_used": "7%",
         "fs_type": "ext4",
         "mount_options": [
@@ -463,9 +463,10 @@
           },
           "state": "up",
           "arp": {
-            "76.186.182.215": "3c:df:a9:f2:74:ec",
+            "192.168.0.1": "3c:df:a9:fc:4f:09",
+            "192.168.0.205": "00:0c:29:5e:d0:0d",
             "192.168.0.2": "18:5e:0f:ce:29:3f",
-            "192.168.0.1": "3c:df:a9:fc:4f:09"
+            "76.186.182.215": "3c:df:a9:f2:74:ec"
           },
           "routes": [
             {
@@ -519,15 +520,15 @@
         "interfaces": {
           "lo": {
             "rx": {
-              "bytes": "0",
-              "packets": "0",
+              "bytes": "2212",
+              "packets": "20",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
             },
             "tx": {
-              "bytes": "0",
-              "packets": "0",
+              "bytes": "2212",
+              "packets": "20",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
@@ -537,16 +538,16 @@
           "eth0": {
             "tx": {
               "queuelen": "1000",
-              "bytes": "359771",
-              "packets": "3041",
+              "bytes": "2003367",
+              "packets": "8893",
               "errors": "0",
               "drop": "0",
               "carrier": "0",
               "collisions": "0"
             },
             "rx": {
-              "bytes": "570846",
-              "packets": "6375",
+              "bytes": "1933463",
+              "packets": "18066",
               "errors": "0",
               "drop": "0",
               "overrun": "0"
@@ -657,7 +658,7 @@
       "ULONG_MAX": 18446744073709551615,
       "USHRT_MAX": 65535,
       "WORD_BIT": 32,
-      "_AVPHYS_PAGES": 357827,
+      "_AVPHYS_PAGES": 355253,
       "_NPROCESSORS_CONF": 1,
       "_NPROCESSORS_ONLN": 1,
       "_PHYS_PAGES": 476728,
@@ -1024,6 +1025,13 @@
         "version": "2.3.7",
         "release": "5.el6",
         "installdate": "1490801574",
+        "arch": "x86_64"
+      },
+      "tree": {
+        "epoch": "0",
+        "version": "1.5.3",
+        "release": "3.el6",
+        "installdate": "1491777696",
         "arch": "x86_64"
       },
       "libacl": {
@@ -2838,23 +2846,23 @@
         "surplus": "0"
       },
       "total": "1906912kB",
-      "free": "1425868kB",
-      "buffers": "44164kB",
-      "cached": "184968kB",
-      "active": "257784kB",
-      "inactive": "95436kB",
-      "dirty": "1824kB",
+      "free": "1415588kB",
+      "buffers": "45020kB",
+      "cached": "187328kB",
+      "active": "279936kB",
+      "inactive": "80044kB",
+      "dirty": "1364kB",
       "writeback": "0kB",
-      "anon_pages": "124068kB",
-      "mapped": "12624kB",
-      "slab": "85448kB",
-      "slab_reclaimable": "26096kB",
-      "slab_unreclaim": "59352kB",
-      "page_tables": "5900kB",
+      "anon_pages": "127660kB",
+      "mapped": "13172kB",
+      "slab": "88284kB",
+      "slab_reclaimable": "28604kB",
+      "slab_unreclaim": "59680kB",
+      "page_tables": "6424kB",
       "nfs_unstable": "0kB",
       "bounce": "0kB",
       "commit_limit": "3050604kB",
-      "committed_as": "243032kB",
+      "committed_as": "253140kB",
       "vmalloc_total": "34359738367kB",
       "vmalloc_used": "159380kB",
       "vmalloc_chunk": "34359564280kB",
@@ -7044,12 +7052,12 @@
       "by_device": {
         "/dev/mapper/VolGroup-lv_root": {
           "kb_size": "17938864",
-          "kb_used": "1579992",
-          "kb_available": "15440960",
+          "kb_used": "1580876",
+          "kb_available": "15440076",
           "percent_used": "10%",
           "total_inodes": "1148304",
-          "inodes_used": "69775",
-          "inodes_available": "1078529",
+          "inodes_used": "69900",
+          "inodes_available": "1078404",
           "inodes_percent_used": "7%",
           "fs_type": "ext4",
           "mount_options": [
@@ -7205,12 +7213,12 @@
       "by_mountpoint": {
         "/": {
           "kb_size": "17938864",
-          "kb_used": "1579992",
-          "kb_available": "15440960",
+          "kb_used": "1580876",
+          "kb_available": "15440076",
           "percent_used": "10%",
           "total_inodes": "1148304",
-          "inodes_used": "69775",
-          "inodes_available": "1078529",
+          "inodes_used": "69900",
+          "inodes_available": "1078404",
           "inodes_percent_used": "7%",
           "fs_type": "rootfs",
           "mount_options": [
@@ -7348,13 +7356,13 @@
         "/dev/mapper/VolGroup-lv_root,/": {
           "device": "/dev/mapper/VolGroup-lv_root",
           "kb_size": "17938864",
-          "kb_used": "1579992",
-          "kb_available": "15440960",
+          "kb_used": "1580876",
+          "kb_available": "15440076",
           "percent_used": "10%",
           "mount": "/",
           "total_inodes": "1148304",
-          "inodes_used": "69775",
-          "inodes_available": "1078529",
+          "inodes_used": "69900",
+          "inodes_available": "1078404",
           "inodes_percent_used": "7%",
           "fs_type": "ext4",
           "mount_options": [
@@ -7497,7 +7505,7 @@
       }
     },
     "init_package": "init",
-    "ohai_time": 1491754334.5867991,
+    "ohai_time": 1491780920.0409598,
     "etc": {
       "passwd": {
         "root": {
@@ -7863,10 +7871,10 @@
     "command": {
       "ps": "ps -ef"
     },
-    "uptime_seconds": 2945,
-    "uptime": "49 minutes 05 seconds",
-    "idletime_seconds": 2886,
-    "idletime": "48 minutes 06 seconds",
+    "uptime_seconds": 29530,
+    "uptime": "8 hours 12 minutes 10 seconds",
+    "idletime_seconds": 29348,
+    "idletime": "8 hours 09 minutes 08 seconds",
     "cloud_v2": null,
     "time": {
       "timezone": "EDT"
@@ -8096,13 +8104,22 @@
     "domain": "yogen.com",
     "shard_seed": 250741219,
     "recipes": [
-
+      "apache",
+      "apache::default"
     ],
     "expanded_run_list": [
-
+      "apache::default"
     ],
     "roles": [
 
-    ]
-  }
+    ],
+    "cookbooks": {
+      "apache": {
+        "version": "0.1.2"
+      }
+    }
+  },
+  "run_list": [
+    "recipe[apache]"
+  ]
 }
